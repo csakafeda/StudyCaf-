@@ -1,6 +1,6 @@
 [![LinkedIn-csakafeda][linkedin-shield-csakafeda]][linkedin-url-csakafeda]
 
-# StudyCaffee
+# StudyCafé
 
 ### About the project
 
