@@ -10,7 +10,6 @@ This application is about a Café, where you can study quietly, give music list 
 
 [![Vite][Vite-badge]][Vite-url]
 [![React][React.js]][React-url]
-[![Typescript][Typescript]][Typescript-url]
 
 
 ### Installation
@@ -26,6 +25,5 @@ This application is about a Café, where you can study quietly, give music list 
 [React-url]: https://reactjs.org/
 [Vite-badge]: https://img.shields.io/badge/Vite-20232A?style=for-the-badge&logo=vite
 [Vite-url]: https://vitejs.dev/
-[Typescript]: https://badgen.net/badge/Built%20With/TypeScript/blue
-[Typescript-url]: https://www.typescriptlang.org/
+
 
