@@ -4,7 +4,7 @@
 
 ### About the project
 
-This application is about a caffee, where you can study quietly, give music list for studing and connect people with similar studyfields.
+This application is about a caffee, where you can study quietly, give music list for studing and connect people with similar studyfields.npx create-react-app app --template typescript
 
 ### Built With
 
