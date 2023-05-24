@@ -1,22 +1,21 @@
 [![LinkedIn-csakafeda][linkedin-shield-csakafeda]][linkedin-url-csakafeda]
 
-# StudyCaffee
+# Study Café
 
 ### About the project
 
-This application is about a caffee, where you can study quietly, give music list for studing and connect people with similar studyfields.npx create-react-app app --template typescript
+This application is about a Café, where you can study quietly, give music list for studying and connect people with similar study-fields.
 
 ### Built With
 
 [![Vite][Vite-badge]][Vite-url]
 [![React][React.js]][React-url]
-[![Spring][Spring-badge]][Spring-url]
 
 ### Installation
 
 - Clone the repository
-- Open the frontend folder and run ```npm install``` to install the necessary dependencies
-- Run ```npm run dev``` to start the React server
+- Run command ``` cd ./app``` to the terminal, to go to the 'app' foler, than run ```npm install``` to install the necessary dependencies
+- Run ```npm start``` to start the React server
 - Open **localhost:3000** in your browser to access the application
 
 [linkedin-shield-csakafeda]: https://img.shields.io/badge/-Feodóra%20Bakó-black.svg?style=for-the-badge&logo=linkedin&colorB=555
