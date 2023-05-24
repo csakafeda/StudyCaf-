@@ -1,16 +1,15 @@
 [![LinkedIn-csakafeda][linkedin-shield-csakafeda]][linkedin-url-csakafeda]
 
-# StudyCafé
+# Study Café
 
 ### About the project
 
-This application is about a Café, where you can study quietly, give music list for studing and connect people with similar studyfields.
+This application is about a Café, where you can study quietly, give music list for studying and connect people with similar study-fields.
 
 ### Built With
 
 [![Vite][Vite-badge]][Vite-url]
 [![React][React.js]][React-url]
-
 
 ### Installation
 
@@ -25,5 +24,3 @@ This application is about a Café, where you can study quietly, give music list 
 [React-url]: https://reactjs.org/
 [Vite-badge]: https://img.shields.io/badge/Vite-20232A?style=for-the-badge&logo=vite
 [Vite-url]: https://vitejs.dev/
-
-
