@@ -62,7 +62,7 @@ const ContactForm: React.FC<ContactFormProps> = ({onClose}) => {
 
                 <div className="flex justify-end">
                     <button type="submit"
-                            className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded">
+                            className="bg-sand hover:bg-camel text-white font-semibold py-2 px-4 rounded">
                         Submit
                     </button>
                 </div>
