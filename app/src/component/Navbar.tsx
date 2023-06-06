@@ -4,7 +4,7 @@ import logo from "../pictures/logo.jpg"
 
 function Navbar() {
     return (
-        <nav className="bg-camel">
+        <nav className="bg-camel sticky top-0">
             <div className="container mx-auto py-4 flex items-center justify-between">
                 <Link className="flex items-center" to="/">
                     <img className="h-8 w-8 mr-2" src={logo} alt="Logo" />
