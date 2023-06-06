@@ -135,3 +135,4 @@ sftp-config.json
 ### Code ###
 # Visual Studio Code.settings/
 .vscode/
+.idea
