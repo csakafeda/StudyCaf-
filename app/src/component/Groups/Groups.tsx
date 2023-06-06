@@ -1,5 +1,6 @@
 import React from 'react';
-import { StudyGroups } from './StudyGroups';
+import {StudyGroups} from './StudyGroups';
+import bgbooks from "../../pictures/books.jpg";
 
 const Groups: React.FC = () => {
     const randomNumber = () => {
@@ -7,26 +8,37 @@ const Groups: React.FC = () => {
     };
 
     return (
-        <div className="max-w-4xl mx-auto px-4">
-            <h2 className="text-center text-2xl font-bold mb-4">Study Groups</h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4">
-                {StudyGroups.map((group) => (
-                    <div key={group.id} className="bg-white border rounded-md p-4">
-                        <h3 className="text-lg font-semibold mb-2">{group.name}</h3>
-                        <p className="text-gray-600 mb-2">{group.description}</p>
-                        <p className="text-gray-500 mb-2">Members: {group.members}</p>
-                        {randomNumber() === 0 ? (
-                            <p className="text-red-500">No seats left</p>
-                        ) : (
-                            <div className="flex justify-between items-center">
-                                <p>{randomNumber()} seats left</p>
-                                <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-                                    Join us
-                                </button>
+        <div className=" font-serif bg-image-container bg-cover min-h-screen"
+             style={{backgroundImage: `url(${bgbooks})`, backgroundRepeat: "repeat", height: "100%"}}>
+            <div className="mr-72 ml-72">
+                <h2 className="rounded-lg bg-sand text-center text-2xl font-bold mr-72 ml-72 p-5 bg-opacity-90 shadow-lg">
+                    Study Groups
+                </h2>
+                <div className="p-8 flex justify-center items-center mb-4">
+                    <div className="flex gap-1 flex-wrap justify-center items-stretch">
+                        {StudyGroups.map((group) => (
+                            <div key={group.id}
+                                 className="w-80 rounded-lg overflow-hidden shadow-lg bg-opacity-90 bg-sand">
+                                <h3 className="text-xl font-semibold py-4 px-6 bg-camel bg-opacity-60 ">
+                                    {group.name}
+                                </h3>
+                                <p className="text-gray-600 mb-2 py-2 px-6">{group.description}</p>
+                                <p className="text-gray-500 mb-2 px-6">Members: {group.members}</p>
+                                {randomNumber() === 0 ? (
+                                    <p className="text-red-500">No seats left</p>
+                                ) : (
+                                    <div className="flex justify-between items-center px-6">
+                                        <p>{randomNumber()} seats left</p>
+                                        <button
+                                            className="bg-nav-bar hover:bg-camel text-white font-bold py-2 px-4 rounded">
+                                            Join us
+                                        </button>
+                                    </div>
+                                )}
                             </div>
-                        )}
+                        ))}
                     </div>
-                ))}
+                </div>
             </div>
         </div>
     );

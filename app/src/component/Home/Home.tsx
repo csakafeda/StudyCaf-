@@ -15,7 +15,7 @@ const Home: React.FC = () => {
     };
 
     return (
-        <div className="flex flex-col justify-center">
+        <div className="font-serif flex flex-col justify-center">
             <div
                 className="bg-image-container"
                 style={{
