@@ -18,6 +18,10 @@ This application is about a Café, where you can study quietly, give music list 
 - Run ```npm start``` to start the React server
 - Open **localhost:3000** in your browser to access the application
 
+### Live demo
+Deployed to vercel
+https://studycafe.vercel.app/
+
 [linkedin-shield-csakafeda]: https://img.shields.io/badge/-Feodóra%20Bakó-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url-csakafeda]: https://www.linkedin.com/in/feodorabako/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react
