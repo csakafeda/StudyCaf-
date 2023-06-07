@@ -1,6 +1,6 @@
 import React from "react";
 import { MenuItems } from "./menuItems";
-import bg from "../../pictures/menu_bg.jpg";
+import bg from "../../pictures/background/menu_bg.jpg";
 
 const Menu: React.FC = () => {
     return (

@@ -1,6 +1,6 @@
 import React from 'react';
 import {StudyGroups} from './StudyGroups';
-import bgbooks from "../../pictures/books.jpg";
+import bgbooks from "../../pictures/background/books.jpg";
 
 const Groups: React.FC = () => {
     const randomNumber = () => {

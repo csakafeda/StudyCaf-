@@ -1,8 +1,7 @@
 import React, {useState} from "react";
-import backgroundImage from "../../pictures/coffee_beans.jpg";
+import backgroundImage from "../../pictures/background/coffee_beans.jpg";
 import ContactForm from "./ContactForm";
 import AboutUsSection from "./AboutUsSection";
-import Footer from "../Footer";
 import inside from "../../pictures/inside1.jpeg";
 
 const Home: React.FC = () => {
