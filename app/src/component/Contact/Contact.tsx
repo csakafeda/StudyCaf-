@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import {useNavigate} from "react-router-dom";
-import bg from "../../pictures/background/paper-plane.png";
+import bg from "../../pictures/paper-plane.png";
 
 interface ContactForm {
     name: string;
