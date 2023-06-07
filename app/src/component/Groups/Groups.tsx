@@ -1,6 +1,6 @@
 import React from 'react';
 import {StudyGroups} from './StudyGroups';
-import bgbooks from "../../pictures/books.jpg";
+import bgbooks from "../../pictures/background/books.jpg";
 
 const Groups: React.FC = () => {
     const randomNumber = () => {
@@ -27,7 +27,7 @@ const Groups: React.FC = () => {
                                 {randomNumber() === 0 ? (
                                     <p className="text-red-500">No seats left</p>
                                 ) : (
-                                    <div className="flex justify-between items-center px-6">
+                                    <div className="flex justify-between items-center px-   6">
                                         <p>{randomNumber()} seats left</p>
                                         <button
                                             className="bg-nav-bar hover:bg-camel text-white font-bold py-2 px-4 rounded">
