@@ -27,7 +27,7 @@ const Groups: React.FC = () => {
                                 {randomNumber() === 0 ? (
                                     <p className="text-red-500">No seats left</p>
                                 ) : (
-                                    <div className="flex justify-between items-center px-6">
+                                    <div className="flex justify-between items-center px-   6">
                                         <p>{randomNumber()} seats left</p>
                                         <button
                                             className="bg-nav-bar hover:bg-camel text-white font-bold py-2 px-4 rounded">

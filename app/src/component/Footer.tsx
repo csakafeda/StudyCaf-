@@ -4,7 +4,7 @@ import instagramIcon from "../pictures/socials/instagram.png";
 
 export default function Footer() {
     return (
-        <div className="w-full text-center bg-camel static bottom-0">
+        <div className="w-full text-center bg-camel static bottom-0 pt-4">
             <div className="flex justify-center items-center">
                 <div className="flex flex-col items-center mr-8">
                     <h3 className="text-sand font-semibold mb-2">Follow Us</h3>
