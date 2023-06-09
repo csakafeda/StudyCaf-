@@ -12,7 +12,6 @@ const Groups: React.FC = () => {
              style={{
                  backgroundImage: `url(${bgbooks})`,
                  backgroundRepeat: "no-repeat",
-                 backgroundSize: "cover",
                  width: "100%"
              }}>
             <div className="mr-2 ml-2
