@@ -9,7 +9,8 @@ const Groups: React.FC = () => {
 
     return (
         <div className="font-serif bg-image-container bg-cover min-h-screen"
-             style={{backgroundImage: `url(${bgbooks})`,
+             style={{
+                 backgroundImage: `url(${bgbooks})`,
                  backgroundRepeat: "no-repeat",
                  backgroundSize: "cover",
                  width: "100%"
@@ -25,13 +26,15 @@ const Groups: React.FC = () => {
                     <div className="flex gap-2 flex-wrap justify-center">
                         {StudyGroups.map((group) => (
                             <div key={group.id}
-                                 className="w-80 rounded-lg bg-opacity-95 bg-sand">
+                                 className="w-80 rounded-lg bg-opacity-95 bg-sand flex flex-col">
                                 <h3 className="text-xl font-semibold py-4 px-6 bg-camel bg-opacity-60">
                                     {group.name}
                                 </h3>
-                                <div className={"py-2 px-6"}>
-                                    <p className="text-gray-600">{group.description}</p>
-                                    <p className="text-gray-500">Members: {group.members}</p>
+                                <div className={"py-2 px-6 flex flex-col justify-between"}>
+                                    <div className={"flex flex-col justify-between"}>
+                                        <p className="text-gray-600">{group.description}</p>
+                                        <p className="text-gray-500">Members: {group.members}</p>
+                                    </div>
                                     {randomNumber() === 0 ? (
                                         <p className="text-red-500">No seats left</p>
                                     ) : (
