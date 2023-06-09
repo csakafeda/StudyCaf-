@@ -30,7 +30,7 @@ const Menu: React.FC = () => {
                 <h2 className="rounded-lg bg-sand text-center text-3xl font-bold p-8 bg-opacity-90 shadow-lg">
                     Menu
                 </h2>
-                <div className="p-8 flex justify-center mb-4 items-stretch">
+                <div className="p-8 flex justify-center items-stretch">
                     <div className="flex gap-4 flex-wrap justify-center items-center">
                         {MenuItems.map((category, index) => (
                             <div
