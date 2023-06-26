@@ -18,7 +18,7 @@ export default function Footer() {
                             Facebook
                         </a>
                         <a
-                            href="https://www.instagram.com/studycafe"
+                            href="https://www.instagram.com/thegardenstudioandcafe/"
                             target="_blank"
                             className="flex items-center text-sand hover:text-white"
                         >
