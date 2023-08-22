@@ -8,7 +8,7 @@ function Navbar() {
             <div className="container mx-auto py-4 flex items-center justify-around">
                 <Link className="flex items-center" to="/">
                     <img className="h-8 w-8 mr-2" src={logo} alt="Logo" />
-                    <span className="text-white text-3xl font-bold hover:text-black">Study Cafe</span>
+                    <span className="text-white text-3xl font-bold hover:text-black">Study Café</span>
                 </Link>
                 <div className="space-x-16 ml-10 mr-40">
                     <Link className="text-white text-2xl font-bold hover:text-black" to="/menu">

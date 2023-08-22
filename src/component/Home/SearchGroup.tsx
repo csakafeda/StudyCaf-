@@ -4,7 +4,7 @@ import inside from "../../pictures/inside1.jpeg";
 
 const SearchGroup = () => {
     return (
-        <div className="flex flex-wrap-reverse gap-3
+        <div className="flex flex-wrap gap-3
         lg:flex-wrap lg:justify-center lg:mx-16
         xl:mx-32 ">
             <div className="max-w-3xl w-full lg:w-1/3">
@@ -32,10 +32,8 @@ const SearchGroup = () => {
             </div>
             <div className="w-full lg:w-1/3 ">
                 <div className="flex justify-center">
-                    <div className="">
-                        <img src={inside} alt="Inside" className="rounded-lg shadow-lg object-contain "
-                             style={{width: '100%', height: 'auto'}}/>
-                    </div>
+                    <img src={inside} alt="Inside" className="rounded-lg shadow-lg object-contain "
+                         style={{width: '100%', height: 'auto'}}/>
                 </div>
             </div>
         </div>

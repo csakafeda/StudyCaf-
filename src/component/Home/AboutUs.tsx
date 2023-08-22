@@ -4,7 +4,7 @@ import inside from "../../pictures/inside1.jpeg";
 
 const AboutUs = () => {
     return (
-        <div className="flex flex-wrap-reverse gap-3
+        <div className="flex flex-wrap gap-3
         lg:flex-wrap lg:justify-center lg:mx-16
         xl:mx-32 ">
             <div className="max-w-3xl w-full lg:w-1/3">
@@ -20,8 +20,6 @@ const AboutUs = () => {
                     of course great specialty coffee drinks all day long.
                 </p>
                 <p className="text-lg">
-                    Try our sumptuous egg dishes, avocado toast and homemade donuts.
-                    All pastries and bread are baked fresh in our own bakery.
                     We squeeze fresh orange juice and prepare fresh smoothies every day in the morning.
                     You will also find gluten-free and lactose-free options as well as vegetarian and
                     vegan meals on our menu.
