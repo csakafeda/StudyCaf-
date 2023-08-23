@@ -1,6 +1,6 @@
 import {Link} from "react-router-dom";
 import React from "react";
-import inside from "../../pictures/inside1.jpeg";
+import group from "../../pictures/groups.jpg";
 
 const SearchGroup = () => {
     return (
@@ -32,7 +32,7 @@ const SearchGroup = () => {
             </div>
             <div className="w-full lg:w-1/3 ">
                 <div className="flex justify-center">
-                    <img src={inside} alt="Inside" className="rounded-lg shadow-lg object-contain "
+                    <img src={group} alt="Groups picture" className="rounded-lg shadow-lg object-contain "
                          style={{width: '100%', height: 'auto'}}/>
                 </div>
             </div>

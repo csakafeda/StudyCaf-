@@ -2,8 +2,8 @@ import React, {useState} from "react";
 import backgroundImage from "../../pictures/background/coffee_beans.jpg";
 import ContactForm from "./ContactForm";
 import AboutUs from "./AboutUs";
-import MakeReservation from "./MakeReservation";
 import SearchGroup from "./SearchGroup";
+import ReservationInfo from "./ReservationInfo";
 
 const Home: React.FC = () => {
     const [showContactForm, setShowContactForm] = useState(false);
@@ -46,7 +46,7 @@ const Home: React.FC = () => {
 
             <div className="flex flex-wrap mt-8 m-9 gap-9">
                 <AboutUs/>
-                <MakeReservation/>
+                <ReservationInfo/>
                 <SearchGroup/>
             </div>
 

@@ -1,12 +1,23 @@
 import {Link} from "react-router-dom";
 import React from "react";
-import inside from "../../pictures/inside1.jpeg";
+import reserve from "../../pictures/reserve.jpeg";
 
-const AboutUs = () => {
+const ReservationInfo = () => {
     return (
         <div className="flex flex-wrap gap-8
         lg:flex-wrap lg:justify-center lg:mx-16
         xl:mx-32 ">
+
+            <div className="w-full lg:w-1/3 ">
+                <div className="flex justify-center">
+                    <img
+                        src={reserve}
+                        alt="Menu book and sandwich"
+                        className="rounded-lg shadow-lg object-contain"
+                        style={{width: '100%', height: 'auto'}}
+                    />
+                </div>
+            </div>
             <div className="max-w-3xl w-full lg:w-1/3">
                 <p className="text-3xl font-semibold mb-10">All-day breakfast & brunch</p>
                 <p className="text-lg">
@@ -36,16 +47,8 @@ const AboutUs = () => {
                     </Link>
                 </button>
             </div>
-            <div className="w-full lg:w-1/3 ">
-                <div className="flex justify-center">
-                        <img src={inside}
-                             alt="Inside"
-                             className="rounded-lg shadow-lg object-contain "
-                             style={{width: '100%', height: 'auto'}}/>
-                </div>
-            </div>
         </div>
     );
 };
 
-export default AboutUs;
+export default ReservationInfo;
