@@ -17,7 +17,7 @@ const ReservationInfo = () => {
             <div className="max-w-3xl w-full lg:w-1/3">
                 <p className="text-3xl font-semibold mb-10">Book a table online</p>
                 <p className="text-lg">
-                    Make a reservation and guarantee your table for a hassle-free dining experience.
+                    Make a reservation and guarantee your table for a hassle-free dinning experience.
                     We are pleased to welcome your booking.
                 </p>
                 <br/>
